@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        section {
+            display: flex;
+            justify-content: center;
+        }
+        .card {
+            position: relative;
+            width: 300px;
+            height: 509.64px;
+            background-image: url(./fondo.png);
+            background-size: 100%;
+            border-radius: 20px;
+            overflow: hidden;
+            z-index: 8;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .logo {
+            position: relative;
+            z-index: 6;
+            width: 70%;
+            height: auto;
+            border-radius: 11px;
+            top: 38px;
+        }
+        .foto-perfil {
+            position: relative;
+            border-radius: 220px;
+            width: 60%;
+            height: auto;
+        }
+        .container {
+            top: 70px;
+            position: inherit;
+            z-index: 5;
+            width: 100%;
+            display: grid;
+            justify-items: center;
+        }
+        .name-data {
+            color:white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .name-data p:nth-child(1) {
+            font-family: sans-serif;
+            margin-bottom: 0;
+            margin-top: 13px;
+            font-size: 1.3em;
+        }
+        .name-data p:nth-child(2) {
+            font-family:Arial, Helvetica, sans-serif;
+            margin-top: 8px;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        .social-media {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+        }
+        .social-media img {
+            width: 58px;
+            height: auto;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <img class="logo" src="./Logo-Outstanding_jpg-300x93.jpg" alt="logo-outstanding">
+            <div class="container">
+                <img class="foto-perfil" src="./84027895_229803958064350_8559798825118597120_n.jpg" alt="img-perfil-inta">
+                <div class="name-data">
+                    <p>Iván Sánchez</p>
+                    <p>Organitational Consultant</p>
+                </div>
+                <div class="social-media">
+                    <a href="https://twitter.com/IvanSanchez_DO"><img src="./twitter.png" alt="twitter"></a>
+                    <a href="https://www.facebook.com/ivan.b.sanchez.58"><img src="./facebook.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/ivan_sanchez1967/"><img src="./instagram.png" alt="instagram"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
